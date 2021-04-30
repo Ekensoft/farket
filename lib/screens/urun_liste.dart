@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:farket/screens/market_detay.dart';
 
-class Urunler extends StatefulWidget {
+class UrunListe extends StatefulWidget {
   @override
-  _UrunlerState createState() => _UrunlerState();
+  _UrunListeState createState() => _UrunListeState();
 }
 
-class _UrunlerState extends State<Urunler> {
+class _UrunListeState extends State<UrunListe> {
   List<Widget> urunlerListe;
 
   @override

@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:farket/models/urun.dart';
 import 'package:farket/utils/dbHelper.dart';
 
-class UrunHomePage extends StatefulWidget {
+class UrunGirisSayfasi extends StatefulWidget {
   @override
-  _UrunHomePageState createState() => _UrunHomePageState();
+  _UrunGirisSayfasiState createState() => _UrunGirisSayfasiState();
 }
 
-class _UrunHomePageState extends State<UrunHomePage> {
+class _UrunGirisSayfasiState extends State<UrunGirisSayfasi> {
 
   DatabaseHelper _databaseHelper = DatabaseHelper();
   List<Uruns> allUruns = List<Uruns>();
